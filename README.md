@@ -4,12 +4,12 @@ Which Language
 Some languages are better suited for certain tasks. But which ones and for
 which tasks?
 
-+ [Cross-referencing](#cross_referencing)
++ [Matching Names](#matching-names)
 + [Parsing Tables](#parsing-tables)
-+ [Parsing Complex Files](#parsing-complexfiles)
-+ [Inter-process Communication](#inter_process-communication)
++ [Parsing Complex Files](#parsing-complex-files)
++ [Interprocess Communication](#interprocess-communication)
 
-## Cross-referencing ##
+## Matching Names ##
 
 A common bioinformatics task is to cross-reference the names from two or more
 files. At the outset, you must know if the relationships are one-to-one,
