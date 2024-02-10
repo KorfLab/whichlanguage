@@ -5,9 +5,9 @@ Some languages are better suited for certain tasks. But which ones and for
 which tasks?
 
 + [Cross-referencing](#cross_referencing)
-+ [Parsing Tables](#parsingtables)
-+ [Parsing Complex Files](#parsingcomplexfiles)
-+ [Inter-process Communication](#inter_processcommunication)
++ [Parsing Tables](#parsing-tables)
++ [Parsing Complex Files](#parsing-complexfiles)
++ [Inter-process Communication](#inter_process-communication)
 
 ## Cross-referencing ##
 
