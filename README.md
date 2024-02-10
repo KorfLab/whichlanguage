@@ -11,8 +11,6 @@ which tasks?
 
 ## Matching Names ##
 
->If it takes longer than 1 second, you're probably doing it wrong
-
 A common bioinformatics task is to cross-reference the names from two or more
 files. At the outset, you must know if the relationships are one-to-one,
 one-to-many, or many-to-many.
@@ -20,6 +18,10 @@ one-to-many, or many-to-many.
 1. The names are unique in both lists
 2. The names occur once in one list, but multiple times in the other list
 3. The names occur multiple times in both lists
+
+### Reality Check ###
+
+>If it takes longer than 1 second, you're probably doing it wrong
 
 ### Setup ###
 
@@ -126,7 +128,7 @@ hundreds or thousands of shell commands.
 ### Python: linear ###
 
 Here are several Python solutions. They are all faster than `grep` but they are
-still linear searches.
+still linear searches. MCS is millions of comparisons per second.
 
 | Program             |  MCS   | Notes
 |:--------------------|-------:|:----------------
@@ -139,7 +141,8 @@ still linear searches.
 ### Python: dict ###
 
 Dictionaries are sort of like binary searches in performance. As the size of
-the data grows, dictionaries increasingly out-perform lists.
+the data grows, dictionaries increasingly out-perform lists. In the table
+below, the colums are the sizes of the `names.txt` file.
 
 | Program             |  1e3  |  1e4  |   1e5  |   1e7  | 
 |:--------------------|------:|------:|-------:|:-------|
@@ -153,13 +156,12 @@ the data grows, dictionaries increasingly out-perform lists.
 
 ------------------------------------------------------------------------------
 
-**STOP DOING LINEAR SEARCHES**
-
----------------------------
+for another day...
 
 + one to many
 + many to many
-+ sql comparisons too?
++ dataframe comparisons...
++ sql comparisons...
 
 ## Parsing Tables ##
 
