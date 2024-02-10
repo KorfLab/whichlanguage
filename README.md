@@ -148,6 +148,11 @@ the data grows, dictionaries increasingly out-perform lists.
 | `python_linear3.py` | 0.045 | 0.223 | 18.33s | 31 min |
 | `python_dict.py`    | 0.044 | 0.047 | 0.102s | 0.674s |
 
+
+------------------------------------------------------------------------------
+
+>If it takes longer than 1 second, you're probably doing it wrong
+
 **STOP DOING LINEAR SEARCHES**
 
 ---------------------------
