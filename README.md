@@ -11,6 +11,8 @@ which tasks?
 
 ## Matching Names ##
 
+>If it takes longer than 1 second, you're probably doing it wrong
+
 A common bioinformatics task is to cross-reference the names from two or more
 files. At the outset, you must know if the relationships are one-to-one,
 one-to-many, or many-to-many.
@@ -150,8 +152,6 @@ the data grows, dictionaries increasingly out-perform lists.
 
 
 ------------------------------------------------------------------------------
-
->If it takes longer than 1 second, you're probably doing it wrong
 
 **STOP DOING LINEAR SEARCHES**
 
