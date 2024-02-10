@@ -150,6 +150,12 @@ the data grows, dictionaries increasingly out-perform lists.
 
 **STOP DOING LINEAR SEARCHES**
 
+---------------------------
+
++ one to many
++ many to many
++ sql comparisons too?
+
 ## Parsing Tables ##
 
 + split()
